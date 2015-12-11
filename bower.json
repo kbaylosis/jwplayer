@@ -5,6 +5,10 @@
   "authors": [
     "players@jwplayer.com"
   ],
+  main : [
+	  "./bin-release/jwplayer.js",
+	  "./bin-release/jwplayer.flash.swf"
+  ],
   "devDependencies": {
     "requirejs": "~2.1.15",
     "qunit": "~1.18.0",
